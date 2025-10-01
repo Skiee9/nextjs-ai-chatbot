@@ -1,0 +1,17 @@
+# Force TypeScript detection
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Ignore build and generated files
+.next/* linguist-vendored
+out/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
+
+# Ignore dependencies
+node_modules/* linguist-vendored
+
+# Ignore lock files
+package-lock.json linguist-vendored
+yarn.lock linguist-vendored
+pnpm-lock.yaml linguist-vendored
