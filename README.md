@@ -27,25 +27,6 @@ This chatbot is designed as an **AI-first application** with:
 - 🧪 **Testing Suite** – Playwright and unit tests ensure stability  
 - 🌍 **One-click Deployment** – Pre-configured for Vercel  
 
----
 
-## 📂 Project Structure  
 
-```bash
-.
-├── app/                   # Main chatbot logic & Next.js routes
-├── components/            # UI components (chat window, message list, input box)
-├── hooks/                 # Custom hooks for state management & API calls
-├── lib/                   # AI integration, utilities, helpers
-├── tests/                 # Unit and E2E tests
-├── public/images/         # Static assets (icons, logos, etc.)
-│
-├── drizzle.config.ts      # Database ORM config
-├── instrumentation.ts     # Analytics & logging
-├── middleware.ts          # Auth, validation, and AI request pipelines
-├── next.config.ts         # Next.js app config
-├── tsconfig.json          # TypeScript configuration
-├── postcss.config.mjs     # PostCSS configuration
-├── playwright.config.ts   # Playwright testing configuration
-└── vercel-template.json   # Vercel deployment template
 
